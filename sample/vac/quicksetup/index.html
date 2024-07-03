@@ -1,1 +1,19 @@
-Redirecting...
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- Replace with your own title -->
+		<title>Vac Quick Setup</title>
+		<script>
+			const currentUrl = new URL(window.location.href);
+            const params = new URLSearchParams(currentUrl.search);
+
+            if (params.get('playmarket') === 'true') {
+			    window.location.replace("https://play.google.com/store/search?q=rowenta+robots&c=apps&gl=FR");
+            }
+		</script>
+	</head>
+	<body>
+		<p>Redirecting you to GooglePlay to download the APP. Un momento, por favor.</p>
+	</body>
+</html>

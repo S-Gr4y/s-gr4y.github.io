@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "be.qaz.InnoAppLinkDataParser",
+    "sha256_cert_fingerprints":
+    ["76:4E:35:D7:0C:80:90:6B:E0:D1:94:5E:68:F2:22:5B:50:CC:78:5B:49:B9:6B:D9:71:4D:D7:85:1D:F5:ED:A0"]
+  }
+}]
